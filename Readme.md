@@ -14,13 +14,13 @@ npm i
 npm run dev
 ```
 
-To get started with docker
+Or to get started with docker
 
 ```
 docker-compose up
 ```
 
-Build your study
+Build your study assets
 
 ```
 npm run build
@@ -28,11 +28,3 @@ npm run build
 
 Now visit http://localhost:1234/ with your browser.\
 You should see a running experiment
-
-## Curious Stuff
-
-Parcel opens up a random port for hot reloading, with this we set it so that HR works with Docker
-
-```
---hmr-port=5678
-```
