@@ -20,11 +20,11 @@ Or to get started with docker
 docker-compose up
 ```
 
-Build your study assets
+Now visit http://localhost:1234/ with your browser.\
+You should see a running experiment
+
+Build your study assets bundle
 
 ```
 npm run build
 ```
-
-Now visit http://localhost:1234/ with your browser.\
-You should see a running experiment
