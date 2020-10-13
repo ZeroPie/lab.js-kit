@@ -1,0 +1,22 @@
+{
+  "name": "labjs-starterkit",
+  "version": "1.0.0",
+  "description": "starter kit for coding lab.js studies from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html --hmr-port=5678",
+    "dev-public": "parcel --public-url ./ index.html --hmr-port=5678",
+    "build": "parcel build --public-url ./ index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-html-root-syntax": "0.0.3"
+  },
+  "dependencies": {
+    "lab.js": "^20.1.1"
+  }
+}
